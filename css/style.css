@@ -62,8 +62,9 @@ h2 {
     font-weight: bold;
     font-size: 2.5rem;
     position: relative;
-    left: 145px;
+    left: 200px;
     display: inline-block;
+
 }
 
 .section-title::after {
@@ -76,6 +77,34 @@ h2 {
     height: 4px;
     background: #ff9800;
     border-radius: 2px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+    position: relative;
+    left: 200px;
+    display: inline-block;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .section-title {
+        left: 100px;
+        font-size: 2.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .section-title {
+        left: 0;
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+        position: static;
+        /* avoid layout shifting */
+    }
 }
 
 
