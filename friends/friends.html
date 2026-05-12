@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -34,6 +34,11 @@
               <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/pld/index.html"
+                >Professional Growth Cycle</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" href="/friends/friends.html"
                 >Friends</a
               >
@@ -41,11 +46,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/family/family.html">Family</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pld/index.html"
-                >Professional Learning Development</a
-              >
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/church/church.html">Church</a>
             </li>
@@ -54,14 +55,31 @@
       </div>
     </nav>
 
-    <header class="sub-hero d-flex align-items-center text-center text-light">
+    <header class="sub-hero d-flex align-items-center text-light">
       <div class="container">
-        <h1 class="fw-bold display-5 sub-hero-title">
-          My <span class="highlight">Friends</span>
-        </h1>
-        <p class="lead">
-          “True friends are never apart, maybe in distance but never in heart.”
-        </p>
+        <div class="row align-items-center">
+          <div class="col-md-8 text-center text-md-start">
+            <h1 class="fw-bold display-5 sub-hero-title">
+              My <span class="highlight">Friends</span>
+            </h1>
+
+            <h2 class="mt-4">The People Who Inspire Me</h2>
+
+            <p class="lead fst-italic">
+              “True friends are never apart, maybe in distance but never in
+              heart.”
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img
+              src="friends-cover.jpg"
+              alt="Friends"
+              class="img-fluid rounded-4 shadow"
+              style="max-height: 350px"
+            />
+          </div>
+        </div>
       </div>
     </header>
 
@@ -70,69 +88,134 @@
         <h2 class="mb-5 text-center fw-bold text-primary">
           🎉 The People Who Inspire Me
         </h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="friends2.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 1"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-bold text-primary">
-                  🎓 College Friends
-                </h5>
-                <p class="card-text">
-                  Through thick and thin, my college friends have been my
-                  partners in laughter, motivation, and unforgettable
-                  adventures.
-                </p>
+
+        <div
+          id="friendsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends1.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 1"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends2.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 2"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends3.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends4.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 4"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends5.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 5"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="friends6.jpg"
+                      class="card-img-top friend-img"
+                      alt="Friend 6"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="friends1.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 2"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-bold text-success">
-                  🌟 College Friends
-                </h5>
-                <p class="card-text">
-                  Captured during a fun gathering — this moment shows how my
-                  friends fill my life with joy, positivity, and courage.
-                </p>
-              </div>
-            </div>
-          </div>
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#friendsCarousel"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+            ></span>
+          </button>
 
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="friends3.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 3"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title fw-bold text-warning">
-                  👫 Childhood Friends
-                </h5>
-                <p class="card-text">
-                  Childhood friends bring me back to the simplicity of life —
-                  loyalty, laughter, and the purest kind of friendship.
-                </p>
-              </div>
-            </div>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#friendsCarousel"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle p-3"
+            ></span>
+          </button>
+
+          <!-- Indicators -->
+          <div class="carousel-indicators position-relative mt-4">
+            <button
+              type="button"
+              data-bs-target="#friendsCarousel"
+              data-bs-slide-to="0"
+              class="active bg-primary"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#friendsCarousel"
+              data-bs-slide-to="1"
+              class="bg-primary"
+            ></button>
           </div>
         </div>
       </div>

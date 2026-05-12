@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -34,18 +34,17 @@
               <a class="nav-link" href="/index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/friends/friends.html"
-                >Friends</a
+              <a class="nav-link active" href="/pld/index.html"
+                >Professional Growth Cycle</a
               >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/friends/friends.html">Friends</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/family/family.html">Family</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pld/index.html"
-                >Professional Learning Development</a
-              >
-            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/church/church.html">Church</a>
             </li>
@@ -54,92 +53,162 @@
       </div>
     </nav>
 
-    <header class="sub-hero d-flex align-items-center text-center text-light">
+    <header class="sub-hero d-flex align-items-center text-light">
       <div class="container">
-        <h1 class="fw-bold display-5 sub-hero-title">
-          <span class="highlight">Professional Learning Development</span>
-        </h1>
-        <p class="lead">
-          “Professional Learning Development focuses on continually improving
-          skills, knowledge, and professional practices to support growth,
-          effectiveness, and long-term career success.”
-        </p>
+        <div class="row align-items-center">
+          <div class="col-md-8 text-center text-md-start">
+            <h1 class="fw-bold display-5 sub-hero-title">
+              <span class="highlight"> Professional Growth Cycle </span>
+            </h1>
+
+            <h2 class="mt-4">
+              Hoea te Waka: Navigating my professional practice
+            </h2>
+
+            <p class="lead fst-italic">My Teaching Philosophy</p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <img
+              src="mypicture.jpg"
+              alt="My Picture"
+              class="img-fluid rounded-4 shadow"
+              style="max-height: 350px"
+            />
+          </div>
+        </div>
       </div>
     </header>
 
     <section class="py-5 bg-light">
       <div class="container">
         <h2 class="mb-5 text-center fw-bold text-primary">
-          Professional Learning Development
+          My Teaching Philosophy
         </h2>
-        <div class="row g-4">
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld1.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 1"
-              />
+
+        <div id="pldCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld1.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 1"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld2.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 2"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld3.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 3"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld4.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 4"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld5.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 5"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
+                  >
+                    <img
+                      src="pld6.jpg"
+                      class="card-img-top friend-img"
+                      alt="PLD 6"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld2.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 2"
-              />
-            </div>
-          </div>
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#pldCarousel"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle p-3"
+            ></span>
+          </button>
 
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld3.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 3"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld4.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 3"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld5.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 3"
-              />
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div
-              class="card border-0 shadow-lg rounded-4 overflow-hidden friend-card h-100"
-            >
-              <img
-                src="pld6.jpg"
-                class="card-img-top friend-img"
-                alt="Friend 3"
-              />
-            </div>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#pldCarousel"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle p-3"
+            ></span>
+          </button>
+
+          <!-- Indicators -->
+          <div class="carousel-indicators position-relative mt-4">
+            <button
+              type="button"
+              data-bs-target="#pldCarousel"
+              data-bs-slide-to="0"
+              class="active bg-primary"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#pldCarousel"
+              data-bs-slide-to="1"
+              class="bg-primary"
+            ></button>
           </div>
         </div>
       </div>
