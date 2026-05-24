@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio - Friends</title>
+    <title>My Portfolio - School</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -39,12 +39,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/school/school.html">School</a>
+              <a class="nav-link active" href="/school/school.html">School</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/friends/friends.html"
-                >Friends</a
-              >
+              <a class="nav-link" href="/friends/friends.html">Friends</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/family/family.html">Family</a>
@@ -57,39 +55,36 @@
         </div>
       </div>
     </nav>
-
     <header class="sub-hero d-flex align-items-center text-light">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-8 text-center">
             <h1 class="fw-bold display-5 sub-hero-title">
-              My <span class="highlight">Friends</span>
+              <span class="highlight"> Our Learning Experiences </span>
             </h1>
 
-            <h2 class="mt-4">The People Who Inspire Me</h2>
-
-            <p class="lead fst-italic">
-              “True friends are never apart, maybe in distance but never in
-              heart.”
-            </p>
+            <h2 class="mt-4">
+              Hoea te Waka: Navigating my professional practice
+            </h2>
           </div>
         </div>
       </div>
     </header>
-
     <section class="py-5 bg-light">
       <div class="container">
-        <h2 class="mb-5 text-center fw-bold text-primary">
-          🎉 The People Who Inspire Me
-        </h2>
+        <!-- Title -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary mb-1">Measurement</h2>
+          <p class="text-muted mb-0">February 2026</p>
+        </div>
 
         <div
-          id="friendsCarousel"
+          id="stationCarousel"
           class="carousel slide"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
-            <!-- First Slide -->
+            <!-- Slide 1 -->
             <div class="carousel-item active">
               <div class="row g-4 justify-content-center">
                 <div class="col-md-4">
@@ -97,9 +92,9 @@
                     class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
                   >
                     <img
-                      src="friends1.jpg"
+                      src="/school/measure/school1.jpg"
                       class="card-img-top friend-img"
-                      alt="Friend 1"
+                      alt="Measure 1"
                     />
                   </div>
                 </div>
@@ -109,9 +104,9 @@
                     class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
                   >
                     <img
-                      src="friends2.jpg"
+                      src="/school/measure/school2.jpg"
                       class="card-img-top friend-img"
-                      alt="Friend 2"
+                      alt="Measure 2"
                     />
                   </div>
                 </div>
@@ -121,16 +116,16 @@
                     class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
                   >
                     <img
-                      src="friends3.jpg"
+                      src="/school/measure/school3.jpg"
                       class="card-img-top friend-img"
-                      alt="Friend 3"
+                      alt="Measure 3"
                     />
                   </div>
                 </div>
               </div>
             </div>
 
-            <!-- Second Slide -->
+            <!-- Slide 2 -->
             <div class="carousel-item">
               <div class="row g-4 justify-content-center">
                 <div class="col-md-4">
@@ -138,9 +133,9 @@
                     class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
                   >
                     <img
-                      src="friends4.jpg"
+                      src="/school/measure/school4.jpg"
                       class="card-img-top friend-img"
-                      alt="Friend 4"
+                      alt="Measure 4"
                     />
                   </div>
                 </div>
@@ -150,21 +145,9 @@
                     class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
                   >
                     <img
-                      src="friends5.jpg"
+                      src="/school/measure/school5.jpg"
                       class="card-img-top friend-img"
-                      alt="Friend 5"
-                    />
-                  </div>
-                </div>
-
-                <div class="col-md-4">
-                  <div
-                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-100"
-                  >
-                    <img
-                      src="friends6.jpg"
-                      class="card-img-top friend-img"
-                      alt="Friend 6"
+                      alt="Measure 5"
                     />
                   </div>
                 </div>
@@ -176,7 +159,7 @@
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#friendsCarousel"
+            data-bs-target="#stationCarousel"
             data-bs-slide="prev"
           >
             <span
@@ -187,7 +170,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#friendsCarousel"
+            data-bs-target="#stationCarousel"
             data-bs-slide="next"
           >
             <span
@@ -199,22 +182,142 @@
           <div class="carousel-indicators position-relative mt-4">
             <button
               type="button"
-              data-bs-target="#friendsCarousel"
+              data-bs-target="#stationCarousel"
               data-bs-slide-to="0"
               class="active bg-primary"
             ></button>
 
             <button
               type="button"
-              data-bs-target="#friendsCarousel"
+              data-bs-target="#stationCarousel"
               data-bs-slide-to="1"
+              class="bg-primary"
+            ></button>
+
+            <button
+              type="button"
+              data-bs-target="#stationCarousel"
+              data-bs-slide-to="2"
               class="bg-primary"
             ></button>
           </div>
         </div>
       </div>
     </section>
+    <section class="py-5 bg-light">
+      <div class="container">
+        <!-- Title -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold text-primary mb-1">Geometry</h2>
+        </div>
 
+        <div
+          id="stationCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-3">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/geo/geo1.jpg"
+                      class="card-img-top friend-img"
+                      alt="Geometry 1"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/geo/geo2.jpg"
+                      class="card-img-top friend-img"
+                      alt="Geometry 2"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/geo/geo3.jpg"
+                      class="card-img-top friend-img"
+                      alt="Geometry 3"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/geo/geo4.jpg"
+                      class="card-img-top friend-img"
+                      alt="Geometry 4"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-light">
+      <div class="container">
+        <!-- Title -->
+        <div class="text-center mb-5">
+          <h1 class="fw-bold mb-5">
+            <span class="highlight">SCHOOL EVENTS</span>
+          </h1>
+          <h2 class="fw-bold text-primary mb-1">Pink-shirt Day</h2>
+          <p class="text-muted mb-0">May 15,2026</p>
+        </div>
+
+        <div
+          id="stationCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-6">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/pink/pink1.jpg"
+                      class="card-img-top friend-img"
+                      alt="Pink 1"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div
+                    class="card border-0 shadow-lg rounded-4 overflow-hidden h-120"
+                  >
+                    <img
+                      src="/pld/pink/pink2.jpg"
+                      class="card-img-top friend-img"
+                      alt="Pink 2"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer class="bg-dark text-light text-center py-3">
       <p>
         &copy; 2025 My Portfolio | Josephine Acedilla
