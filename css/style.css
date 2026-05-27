@@ -378,3 +378,20 @@ h2 {
 .profile-frame:hover img {
   transform: scale(1.03);
 }
+.caption-box {
+  max-width: 1100px;
+  background: #fff;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  border-top: 6px solid #0d6efd;
+}
+
+.caption-box h4 {
+  font-size: 2rem;
+}
+
+.caption-box p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
